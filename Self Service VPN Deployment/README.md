@@ -1,7 +1,6 @@
 ####Self Service VPN's
 ====
 
-<<<<<<< HEAD
 Created By: Ross Derewianko
 For Ping Identity Corporation 2014
 Creation Date: March 2014
@@ -15,7 +14,7 @@ Self Service VPN's
 Installation.
 =======
 #####Installation.
->>>>>>> 2695a03a7a60e17a539bac5f6c328b8814f86afb
+
 
 1. Install the Ea's making sure to edit the plist to a file location you'd prefer. This needs to be edited in all four files
 2. Create a policy with that runs the script "selfserviceinstallvpn.sh" with the value in 4 of the vpn name
