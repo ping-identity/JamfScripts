@@ -1,5 +1,4 @@
 ####Self Service VPN's
-====
 
 Created By: Ross Derewianko  
 For Ping Identity Corporation 2014  
@@ -10,8 +9,6 @@ Last modified: March 27, 2014
 Self Service VPN's
 --------------------------------------------------------
 
-Installation.
-=======
 #####Installation.
 
 
