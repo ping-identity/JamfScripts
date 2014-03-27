@@ -3,12 +3,12 @@ Created By: Ross Derewianko
 For Ping Identity Corporation 2014
 Creation Date: March 2014
 Last modified: March 27, 2014
+
+
 --------------------------------------------------------
 Self Service VPN's
 --------------------------------------------------------
 
-
-===========
 Installation.
 
 1. Install the Ea's making sure to edit the plist to a file location you'd prefer. This needs to be edited in all four files
