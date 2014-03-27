@@ -13,7 +13,7 @@
 The files used in this are listed in the order they would run:   
 selfserviceinstallvpn.sh (builds the config file)  
 EA - checkforvpn.sh (reads what vpn it is)  
-EA - checkfornewlydeployedvpn.sh 
+EA - checkfornewlydeployedvpn.sh   
 Justdeployed.sh (if new deployment)  
 
 
