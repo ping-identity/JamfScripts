@@ -12,8 +12,6 @@ Last modified: March 27, 2014
 
 --------------------------------------------------------
 
-
-===========
 #####Installation.
 
 1. Install the Ea's making sure to edit the plist to a file location you'd prefer. This needs to be edited in all four files
