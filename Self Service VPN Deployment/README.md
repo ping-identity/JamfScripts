@@ -10,8 +10,6 @@ Last modified: March 27, 2014
 Self Service VPN's
 --------------------------------------------------------
 
-Installation.
-=======
 #####Installation.
 
 
