@@ -11,19 +11,19 @@
 --------------------------------------------------------
 
 The files used in this are listed in the order they would run: 
-selfserviceinstallvpn.sh (builds the config file)
-EA - checkforvpn.sh (reads what vpn it is) (EA)
-EA - checkfornewlydeployedvpn.sh (EA)
-Justdeployed.sh (if new deployment clean)
+* selfserviceinstallvpn.sh (builds the config file)
+* EA - checkforvpn.sh (reads what vpn it is) (EA)
+* EA - checkfornewlydeployedvpn.sh (EA)
+* Justdeployed.sh (if new deployment clean)
 
 
 --------------------------------------------------------	
 
 #####Extension Attributes
-EA -checkforvpn.sh
-Searches/checks for the plist and the values in VPN
-EA - checkfornewlydeployedvpn.sh 
-Searches/checks for the plist and the values in JustDeployed = Yes or No
+* EA -checkforvpn.sh
+ Searches/checks for the plist and the values in VPN
+*EA - checkfornewlydeployedvpn.sh 
+ Searches/checks for the plist and the values in JustDeployed = Yes or No
 
 
 --------------------------------------------------------	
