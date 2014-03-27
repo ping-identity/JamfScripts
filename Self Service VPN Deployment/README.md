@@ -1,11 +1,11 @@
-########################################################################
-# Created By: Ross Derewianko
-# For Ping Identity Corporation 2014
-# Creation Date: March 2014
-# Last modified: March 27, 2014
-########################################################################
-Self Service VPN's
 
+Created By: Ross Derewianko
+For Ping Identity Corporation 2014
+Creation Date: March 2014
+Last modified: March 27, 2014
+--------------------------------------------------------
+Self Service VPN's
+--------------------------------------------------------
 
 
 ===========
@@ -16,7 +16,7 @@ Installation.
 3. Create Smart groups scoped out to the vpnName
 4. Create Config Profile of vpn, and scope it to the smart group created in step 3.
 
-
+--------------------------------------------------------
 
 The files used in this are listed in the order they would run: 
 selfserviceinstallvpn.sh (builds the config file)
