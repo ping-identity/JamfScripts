@@ -1,11 +1,10 @@
 ####Self Service VPN's
 ====
 
-Created By: Ross Derewianko
-For Ping Identity Corporation 2014
-Creation Date: March 2014
-Last modified: March 27, 2014
-
+Created By: Ross Derewianko  
+For Ping Identity Corporation 2014  
+Creation Date: March 2014  
+Last modified: March 27, 2014  
 
 --------------------------------------------------------
 Self Service VPN's
@@ -33,9 +32,9 @@ Justdeployed.sh (if new deployment)
 --------------------------------------------------------	
 
 #####Extension Attributes
-* EA -checkforvpn.sh  
+EA -checkforvpn.sh  
  Searches/checks for the plist and the values in VPN  
-*EA - checkfornewlydeployedvpn.sh   
+EA - checkfornewlydeployedvpn.sh   
  Searches/checks for the plist and the values in JustDeployed = Yes or No  
 
 
@@ -43,8 +42,8 @@ Justdeployed.sh (if new deployment)
 
 #####Policies
 VPN - vpnDemo  
-Uses the script selfservicevpn.sh passing through <vpn name> in perameter value 4 and updates inventory.  
-Uses selfservicevpn.sh scoped to ongoing as the user may have to install the vpn on a loaner machine.  
+Uses the script selfservicevpn.sh passing through ```<vpn name>``` in perameter value 4 and updates inventory.  
+Uses selfservicevpn.sh scoped to ongoing as the u ser may have to install the vpn on a loaner machine.  
 Vpn Was Newly Deployed - Deploy Dock Icon  
 Puts the VPN icon on the users top bar. Uses justdeployed.sh scoped to login  
 Remove All Vpns  
@@ -56,7 +55,7 @@ Pops a value of vpnremoved into the VPN value. Casper removes vpn config.
 selfserviceinstallvpn.sh  
 This script is the main script for the vpn deployment. What it does, is read from the policy parameter 4, which is the vpn group name.  
 
-With vpnDemo, it writes it to the file located at <plist location>  under the child value of VPN  
+With vpnDemo, it writes it to the file located at ```<plist location>```  under the child value of VPN  
 ```
 <key>VPN</key>
 	<string>vpnDemo</string>
@@ -75,7 +74,7 @@ If the file didn’t exist from the check above it writes the following
 --------------------------------------------------------	
 #####Smart Groups  
 
-Each VPN has a Smart group called VPNDEPLOY - <vpn name>   
+Each VPN has a Smart group called VPNDEPLOY - vpnName
 The smart group is based on whats reported in the EA EA - checkforvpn.sh based on the reported ea, casper auto places that computer in said group.  
 
 --------------------------------------------------------	
